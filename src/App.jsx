@@ -4,6 +4,7 @@ import Campaigns from "./components/Campaigns.jsx";
 import WhoWeAre from "./components/WhoWeAre.jsx";
 import News from "./components/News.jsx";
 import "./styles.css";
+import LatestResources from "./components/LatestResources.jsx";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Campaigns />
       <WhoWeAre />
       <News />
+      <LatestResources />
     </div>
   );
 }

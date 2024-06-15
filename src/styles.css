@@ -204,9 +204,8 @@ button {
 }
 
 .campaigns-card-container-button {
-  border: none;
   color: #1d6fa3;
-  font-size: 16;
+  font-size: 16px;
   font-weight: 700;
   display: flex;
   margin: 0 0 0 32px;
@@ -243,7 +242,6 @@ button {
   margin: 20px 0 48px 0;
 }
 .who-we-are-btn {
-  border: none;
   color: rgb(28, 111, 163);
   font-size: 16px;
   font-weight: 700;
@@ -284,8 +282,8 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 80px 0;
-  gap: 32px;
+  padding: 80px 165.5px;
+  align-items: center;
 }
 
 .news-text-container {
@@ -293,7 +291,6 @@ button {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  margin-bottom: 32px;
 }
 
 .news-text-header {
@@ -311,26 +308,17 @@ button {
   color: #505258;
 }
 
-.news-card-component {
-  background-color: #f9f9ff;
-  display: flex;
-  flex-direction: column;
-  gap: 19px;
-  
-}
-
 .news-card-container {
-  display: flex;
-  width: 357px;
-  height: 470px;
+  display: grid;
+  grid-template-columns: 357px 357px 357px;
+  grid-template-rows: 470px 470px 470px;
   gap: 19px;
-  padding-left: 20px;
+  margin-bottom: 32px;
 }
-
-.news-card-container button {
-  border: none;
-  display: flex;
-  margin: 0 0;
+.news-card-container-content {
+  border-radius: 20px;
+  background-color: #f9f9ff;
+  padding: 20px 22px 0px 20px;
 }
 
 .news-container-btn {
@@ -338,17 +326,18 @@ button {
   font-weight: 700;
   color: #24272e;
   border-color: #1d6fa3;
-  align-self: center;
 }
 
 .news-card-image {
   width: 315px;
   height: 201px;
+  border-radius: 16px;
 }
 
 .news-card-title {
   font-size: 24px;
   font-weight: 600;
+  height: 72px;
   width: 315px;
   overflow: hidden;
   line-height: 36px;
@@ -357,14 +346,32 @@ button {
 .news-card-description {
   width: 315px;
   height: 81px;
+  color: #505258;
+  line-height: 24px;
+  font-weight: 400;
   overflow: hidden;
   margin: 0 0 17px 0;
 }
 
 .news-card-btn {
-  display: flex;
-  width: 357px;
-  height: 470px;
-  padding-left: 20px;
+  font-family: "DM Sans", serif;
   color: #1d6fa3;
+  gap: 5.47px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  color: rgb(28, 111, 163);
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
 }
+
+.news-card-container button {
+  height: 24px;
+  width: 117.47px;
+  border: none;
+  display: flex;
+}
+
+/* ---News CSS--- */
+/* F9F9FF */
