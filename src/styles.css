@@ -73,6 +73,16 @@ button {
   color: #d6d6d6;
 }
 
+.Nav-Bar-Links-Dropdown {
+  display: flex;
+  gap: 8px;
+  cursor: pointer;
+}
+.Nav-Bar-Links-Dropdown :hover {
+  color: #d6d6d6;
+  height: 18px;
+}
+
 /* ---Homepage CSS--- */
 .homepage-container {
   height: 662px;
@@ -126,10 +136,6 @@ button {
   font-size: 18px;
   font-weight: 500;
   background-color: rgba(255, 255, 255, 0.1);
-}
-
-.arrow-white {
-  width: 20px;
 }
 
 /* ---Campaigns CSS--- */
@@ -197,7 +203,7 @@ button {
   font-family: "DM Sans", sans-serif;
 }
 
-.campaigns-card-container button {
+.campaigns-card-container-button {
   border: none;
   color: #1d6fa3;
   font-size: 16;
@@ -206,15 +212,7 @@ button {
   margin: 0 0 0 32px;
   gap: 4px;
 }
-
-.campaigns-card-container-arrow {
-  width: 17px;
-}
-
-.campaigns-card button {
-  display: flex;
-  align-items: center;
-  color: #1d6fa3;
+.campaigns-card-container button {
   border: none;
 }
 
@@ -246,14 +244,14 @@ button {
 }
 .who-we-are-btn {
   border: none;
-  color: #1d6fa3;
+  color: rgb(28, 111, 163);
   font-size: 16px;
   font-weight: 700;
   display: flex;
   gap: 4px;
 }
-.who-we-are-container-arrow {
-  width: 21px;
+.who-we-are-text-container button {
+  border: none;
 }
 
 .who-we-are-card-component {
@@ -278,4 +276,95 @@ button {
 
 .container-2 {
   margin-top: 140px;
+}
+
+/* ---News CSS--- */
+
+.news-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 80px 0;
+  gap: 32px;
+}
+
+.news-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.news-text-header {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.news-text-description {
+  font-size: 18px;
+  margin: 32px auto;
+  width: 613.67px;
+  line-height: 27px;
+  font-weight: 400;
+  color: #505258;
+}
+
+.news-card-component {
+  background-color: #f9f9ff;
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  
+}
+
+.news-card-container {
+  display: flex;
+  width: 357px;
+  height: 470px;
+  gap: 19px;
+  padding-left: 20px;
+}
+
+.news-card-container button {
+  border: none;
+  display: flex;
+  margin: 0 0;
+}
+
+.news-container-btn {
+  font-size: 16px;
+  font-weight: 700;
+  color: #24272e;
+  border-color: #1d6fa3;
+  align-self: center;
+}
+
+.news-card-image {
+  width: 315px;
+  height: 201px;
+}
+
+.news-card-title {
+  font-size: 24px;
+  font-weight: 600;
+  width: 315px;
+  overflow: hidden;
+  line-height: 36px;
+  margin: 24px 0 8px 0;
+}
+.news-card-description {
+  width: 315px;
+  height: 81px;
+  overflow: hidden;
+  margin: 0 0 17px 0;
+}
+
+.news-card-btn {
+  display: flex;
+  width: 357px;
+  height: 470px;
+  padding-left: 20px;
+  color: #1d6fa3;
 }

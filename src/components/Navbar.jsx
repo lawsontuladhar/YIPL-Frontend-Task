@@ -1,4 +1,4 @@
-import searchIcon from "../../assets/icons/search.svg";
+import searchIcon from "../../assets/icons/search-solid-white.svg";
 import CompanyLogo from "../../assets/images/company-logo.png";
 
 function Navbar() {
@@ -20,12 +20,10 @@ function Navbar() {
           <li>
             <a href="#CaseStudies">Case Studies</a>
           </li>
-          <li>
-            <a href="#Resource" className="Nav-Bar-Links-Dropdown">
-              Resources
-            </a>
+          <li className="Nav-Bar-Links-Dropdown">
+            <a href="#Resource">Resources</a>
             <img
-              src="../assets/icons/down-arrow-5-svgrepo-com.svg"
+              src="../assets/icons/chevron-down-white.svg"
               alt="down arrow"
               width="14px"
             />
@@ -40,50 +38,3 @@ function Navbar() {
 }
 
 export default Navbar;
-
-{
-  /* <div className="Nav-Bar">
-            <a href="/Home">
-              <img
-                src=" ../assets/images/company_logo.jpg"
-                alt="Company Logo Here"
-                width="100"
-                height="100"
-              ></img>
-            </a>
-            <ul className="Nav-Bar-Links">
-              <li>
-                <a href="/Home">Home</a>
-              </li>
-              <li>
-                <a href="/AboutUs">About Us</a>
-              </li>
-              <li>
-                <a href="/CaseStudies">Case Studies</a>
-              </li>
-              <li>
-                <a href="/Resource" className="Nav-Bar-Links-Dropdown">
-                  Resources
-                </a>
-                <img
-                  src="../assets/icons/down-arrow-5-svgrepo-com.svg"
-                  alt="down arrow"
-                  width="14px"
-                />
-              </li>
-            </ul>
-          </div>
-          <search className="Search-Bar">
-            <img
-              src="../assets/icons/search-svgrepo-com.svg"
-              alt=""
-              width="20px"
-            />
-            <input
-              type="text"
-              name="search"
-              id="search"
-              src="../assets/icons/search-svgrepo-com.svg"
-            />
-          </search> */
-}

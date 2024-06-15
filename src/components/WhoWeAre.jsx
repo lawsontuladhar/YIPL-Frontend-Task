@@ -14,14 +14,16 @@ function WhoWeAre() {
           within the EU.
         </article>
 
-        <button className="who-we-are-btn">
-          See More
-          <img
-            src="../../assets/icons/arrow-right.svg"
-            alt="arrow-icon"
-            width="15px"
-            className="who-we-are-container-arrow"
-          />
+        <button >
+          <div className="who-we-are-btn">
+            See More
+            <img
+              src="../../assets/icons/arrow-right-solid-1d6fa3-blue.svg"
+              alt="arrow-icon"
+              width="15px"
+              className="who-we-are-container-arrow"
+            />
+          </div>
         </button>
       </section>
       <figure className="who-we-are-images-container">

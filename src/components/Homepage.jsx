@@ -18,7 +18,7 @@ function Homepage() {
           <button>
             Why Catalog?
             <img
-              src="../assets/icons/arrow-right-white.svg"
+              src="../assets/icons/arrow-right-solid-white.svg"
               alt="arrow-icon"
               width="15px"
               className="arrow-white"

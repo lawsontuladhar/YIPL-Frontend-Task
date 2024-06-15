@@ -9,13 +9,15 @@ function CampaignsCard(props) {
       <h4 className="campaigns-card-container-header">{props.title}</h4>
       <p className="campaigns-card-container-content">{props.content}</p>
       <button>
-        Learn more
-        <img
-          src="../../assets/icons/arrow-right.svg"
-          alt="arrow-icon"
-          width="15px"
-          className="campaigns-card-container-arrow"
-        />
+        <div className="campaigns-card-container-button">
+          Learn more
+          <img
+            src="../../assets/icons/arrow-right-solid-1d6fa3-blue.svg"
+            alt="arrow-icon"
+            width="15px"
+            className="campaigns-card-container-arrow"
+          />
+        </div>
       </button>
     </div>
   );
