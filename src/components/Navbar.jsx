@@ -1,5 +1,5 @@
 import searchIcon from "../../assets/icons/search-solid-white.svg";
-import CompanyLogo from "../../assets/images/company-logo.png";
+import CompanyLogo from "../../assets/images/catalog-logo-white.png";
 
 function Navbar() {
   return (
@@ -7,7 +7,7 @@ function Navbar() {
       <nav className="Nav-Bar">
         <div className="Nav-Bar-logo-container">
           <a href="/Home">
-            <img src={CompanyLogo} alt="Company Logo Here" width="50"></img>
+            <img src={CompanyLogo} alt="Company Logo Here"></img>
           </a>
         </div>
         <ul className="Nav-Bar-Links">

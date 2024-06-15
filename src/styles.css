@@ -31,6 +31,7 @@ button {
   border-radius: 4px;
   border: 2px solid black;
   color: white;
+  border-width: 1px;
   background-color: transparent;
   cursor: pointer;
 }
@@ -59,6 +60,10 @@ button {
   display: flex;
   align-items: center;
   gap: 40px;
+}
+
+.Nav-Bar-logo-container {
+  width: 150px;
 }
 
 .Nav-Bar-Links {
@@ -373,5 +378,211 @@ button {
   display: flex;
 }
 
-/* ---News CSS--- */
-/* F9F9FF */
+/* ---Latest Resources CSS--- */
+
+.latest-resources-container {
+  padding: 80px 164.63px;
+  background-color: #f9f9ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.latest-resources-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.latest-resources-btn {
+  height: 44px;
+  width: 173px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #24272e;
+  border-color: #1d6fa3;
+}
+
+.latest-resources-text-header {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.latest-resources-text-description {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  margin: 32px 0px;
+  width: 498px;
+  text-align: center;
+}
+
+.latest-resources-component {
+  display: flex;
+  gap: 26px;
+  margin-bottom: 32px;
+}
+
+.latest-resources-card {
+  width: 352.91px;
+  height: 337.45px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 29px;
+  border-radius: 21.83px;
+  background-color: #ffffff;
+}
+
+.latest-resources-card-icon-container {
+  margin-top: 39.18px;
+  width: 65.49px;
+  height: 65.59px;
+  display: flex;
+  align-items: center;
+  gap: 8.64px;
+}
+
+.latest-resources-card-icon-purple {
+  padding: 20px;
+  border-radius: 18.19px;
+  background-color: #f8f1ff;
+}
+.latest-resources-card-icon-blue {
+  padding: 20px;
+  border-radius: 18.19px;
+  background-color: #f3f6ff;
+}
+.latest-resources-card-icon-orange {
+  padding: 20px;
+  border-radius: 18.19px;
+  background-color: #fae6e0;
+}
+
+.latest-resources-card-icon-title {
+  text-wrap: nowrap;
+}
+
+.latest-resources-card-header {
+  margin: 21.93px 0 12.48px 0;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 600;
+}
+
+.latest-resources-card-description {
+  font-size: 16px;
+  line-height: 24px;
+  color: #7c7d82;
+  margin-bottom: 51px;
+}
+
+.latest-resources-card-btn {
+  font-family: "DM Sans", serif;
+  color: #1d6fa3;
+  gap: 5.47px;
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+}
+
+.latest-resources-card button {
+  height: 24px;
+  width: 117.47px;
+  border: none;
+  display: flex;
+}
+
+/* ---ContactUs CSS--- */
+
+.contactUs-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 186.5px;
+  width: 550px;
+  margin: 0 auto;
+}
+
+.contactUs-header {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.contactUs-description {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  margin: 32px auto;
+  width: 498px;
+  text-align: center;
+  color: #7c7d82;
+}
+
+.input-forms {
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  margin-bottom: 32px;
+}
+.input-forms label {
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.input-forms input {
+  height: 44px;
+  width: 100%;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  border-color: rgba(0, 0, 0, 0.16);
+}
+
+.form-first-last-name {
+  display: flex;
+  gap: 16px;
+}
+
+.form-first-name {
+  width: 267px;
+  display: flex;
+  flex-direction: column;
+}
+.form-last-name {
+  width: 267px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-email {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-area {
+  width: 550px;
+  height: 117px;
+  overflow: auto;
+  border-radius: 8px;
+  border-color: rgba(0, 0, 0, 0.16);
+  resize: none;
+}
+
+.form-submit-btn {
+  font-family: "DM Sans", serif;
+  color: #24272e;
+  gap: 5.47px;
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 700;
+  border-width: 1px;
+  border-color: #1d6fa3;
+  width: 88px;
+  height: 44px;
+}

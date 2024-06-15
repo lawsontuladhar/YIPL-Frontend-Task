@@ -5,6 +5,8 @@ import WhoWeAre from "./components/WhoWeAre.jsx";
 import News from "./components/News.jsx";
 import "./styles.css";
 import LatestResources from "./components/LatestResources.jsx";
+import ContactUs from "./components/ContactUs.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <WhoWeAre />
       <News />
       <LatestResources />
+      <ContactUs />
+      <Footer />
     </div>
   );
 }

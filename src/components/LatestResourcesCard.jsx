@@ -4,9 +4,8 @@ function LatestResourcesCard(props) {
       <figure className="latest-resources-card-icon-container">
         <img
           src={`../../assets/icons/${props.image}`}
-          width="26.72px"
-          alt=""
-          className="latest-resources-card-icon"
+          alt="latest-resources-image"
+          className={`latest-resources-card-icon-${props.iconBackground}`}
         />
         <p className="latest-resources-card-icon-title">{props.imageTitle}</p>
       </figure>
