@@ -20,7 +20,7 @@ function News() {
   console.log(data);
 
   return (
-    <div className="news-container">
+    <div className="news-container" id="News">
       <section className="news-text-container">
         <header className="news-text-header">News</header>
         <p className="news-text-description">

@@ -1,6 +1,6 @@
 function ContactUs() {
   return (
-    <form className="contactUs-container">
+    <form className="contactUs-container" id="ContactUs">
       <header className="contactUs-header">Contact Us</header>
       <p className="contactUs-description">
         If you have any further inquires, please let us know by filling the form

@@ -2,7 +2,7 @@ import CampaignsCard from "./CampaignsCard";
 
 function Campaigns() {
   return (
-    <div className="campaigns-container">
+    <div className="campaigns-container" id="Campaigns">
       <section className="campaigns-header-container">
         <h1>Campaigns</h1>
         <p>

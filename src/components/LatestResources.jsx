@@ -2,7 +2,7 @@ import LatestResourcesCard from "./LatestResourcesCard";
 
 function LatestResources() {
   return (
-    <div className="latest-resources-container">
+    <div className="latest-resources-container" id="Resources">
       <section className="latest-resources-text-container">
         <header className="latest-resources-text-header">
           Latest Resources
