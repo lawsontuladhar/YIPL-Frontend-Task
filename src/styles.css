@@ -7,6 +7,7 @@
   font-family: "Inter", sans-serif;
   list-style: none;
   color: #24272e;
+  scroll-behavior: smooth;
 }
 
 img {
@@ -83,9 +84,13 @@ button {
   gap: 8px;
   cursor: pointer;
 }
+
+.Nav-Bar-Links-Dropdown img {
+  margin-left: 8px;
+}
+
 .Nav-Bar-Links-Dropdown :hover {
   color: #d6d6d6;
-  height: 18px;
 }
 
 /* ---Homepage CSS--- */
@@ -279,6 +284,41 @@ button {
 
 .container-2 {
   margin-top: 140px;
+}
+
+/* ---About Us CSS--- */
+
+.about-us-component {
+  padding: 80px 141.5px;
+  height: 40px;
+  display: flex;
+  background-color: #f9f9ff;
+  justify-content: space-between;
+}
+
+.about-us-component img {
+  height: 100%;
+}
+
+.about-us-card {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 40px;
+
+  color: #101828;
+}
+.about-us-card p {
+  color: #101828;
+}
+
+.left-arrow {
+  display: flex;
+}
+.right-arrow {
+  display: flex;
 }
 
 /* ---News CSS--- */
@@ -696,3 +736,82 @@ a {
   display: flex;
   flex-direction: column;
 }
+
+/* --Go To Top button-- */
+.go-to-top-btn {
+  width: 50px;
+  position: absolute;
+  right: 0;
+  margin-top: -0px;
+  padding: 1rem;
+
+  cursor: pointer;
+  -webkit-filter: drop-shadow(2px 2px 2px #999999);
+  filter: drop-shadow(2px 2px 2px #999999);
+}
+
+.drop-down-menu {
+  position: absolute;
+  top: 70px;
+  right: 290px;
+  width: 412px;
+  height: 320px;
+  border-radius: 8px;
+  border: none;
+  color: #101828;
+  background-color: #ffffff;
+}
+
+.dropdown-icons {
+  width: 24px;
+}
+.drop-down-menu div {
+  margin-bottom: 8px;
+}
+.drop-down-menu h1 {
+  display: flex;
+  align-items: center;
+  width: 308px;
+  height: 24px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.drop-down-menu p {
+  width: 308px;
+  height: 20px;
+  color: #667085;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.drop-down-menu-component {
+  padding: 24px 20px 0 20px;
+  display: flex;
+  align-items: flex-start;
+  cursor: pointer;
+}
+
+.drop-down-menu-content {
+  margin-left: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.drop-down-menu ::before {
+  content: "";
+  position: absolute;
+  top: -1px;
+  right: 1px;
+  width: 412px;
+  height: 320px;
+  border-radius: 8px;
+  border: none;
+}
+
+
+/* --search-- */
+

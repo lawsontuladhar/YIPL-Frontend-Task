@@ -7,6 +7,8 @@ import "./styles.css";
 import LatestResources from "./components/LatestResources.jsx";
 import ContactUs from "./components/ContactUs.jsx";
 import Footer from "./components/Footer.jsx";
+import AboutUs from "./components/AboutUs.jsx";
+import GoToTop from "./components/GoToTop.jsx";
 
 function App() {
   return (
@@ -14,10 +16,12 @@ function App() {
       <Homepage />
       <Campaigns />
       <WhoWeAre />
+      <AboutUs />
       <News />
       <LatestResources />
       <ContactUs />
       <Footer />
+      <GoToTop />
     </div>
   );
 }

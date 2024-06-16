@@ -33,12 +33,12 @@ function Footer() {
             <a href="#">Transparency Toolkit</a>
             <a href="#">Evidence</a>
             <a href="#">Best Practices</a>
-            <a href="#">About Us</a>
+            <a href="#AboutUs">About Us</a>
           </div>
           <div className="work-with-us">
             <h2>Work with us</h2>
             <a href="#ContactUs">Contact Us</a>
-            <a href="#About Us">Join Us</a>
+            <a href="#AboutUs">Join Us</a>
           </div>
         </div>
       </div>
