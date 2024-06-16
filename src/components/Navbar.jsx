@@ -7,6 +7,7 @@ import Search from "./Search";
 function Navbar() {
   const [open, setOpen] = useState(false);
   const [search, setSearch] = useState(false);
+  const [close, setClose] = useState(false);
 
   return (
     <div className="Navigation-Wrapper">
@@ -42,7 +43,16 @@ function Navbar() {
         </ul>
         {open && <DropDown />}
       </nav>
-      <search className="Search-Bar" onClick={() => setSearch((prev) => !prev)}>
+      <search
+        className="Search-Bar"
+        onClick={() => {
+          if (search === false) {
+            setSearch(true);
+          } else {
+            setSearch((prev) => !prev);
+          }
+        }}
+      >
         <img src={searchIcon} alt="" width="20px" />
         {search && <Search />}
       </search>

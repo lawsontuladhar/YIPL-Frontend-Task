@@ -752,8 +752,8 @@ a {
 
 .drop-down-menu {
   position: absolute;
-  top: 70px;
-  right: 290px;
+  top: 69px;
+  right: 850px;
   width: 412px;
   height: 320px;
   border-radius: 8px;
@@ -812,6 +812,23 @@ a {
   border: none;
 }
 
-
 /* --search-- */
 
+.search-bar {
+  position: absolute;
+  right: 600px;
+  top: 120px;
+}
+
+.search-bar input {
+  width: 640px;
+  border-radius: 12px;
+  border: none;
+  padding: 16px;
+}
+
+.close-search-icon {
+  position: relative;
+  top: -30px;
+  width: 20px;
+}
