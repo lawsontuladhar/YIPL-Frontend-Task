@@ -14,7 +14,7 @@ function WhoWeAre() {
           within the EU.
         </article>
 
-        <button >
+        <button>
           <div className="who-we-are-btn">
             See More
             <img

@@ -228,6 +228,9 @@ button {
 /* ---Who We Are CSS--- */
 
 .who-we-are-container {
+  overflow: hidden;
+}
+.who-we-are-container {
   margin-top: 53px;
   padding: 96px 160px;
   display: flex;
@@ -262,12 +265,21 @@ button {
   border: none;
 }
 
+.who-we-are-images-container {
+}
 .who-we-are-card-component {
   width: 328px;
   height: 471px;
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 40px;
+  overflow: hidden;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.who-we-are-card-component p {
+  color: #000;
 }
 .who-we-are-card-component img {
   width: 328px;
@@ -276,6 +288,11 @@ button {
   margin-bottom: 24px;
   background-position: 0;
   object-fit: cover;
+  transition: all 0.3s ease-in-out;
+}
+.who-we-are-card-component img:hover {
+  border-radius: 16px;
+  transform: scale(1.1);
 }
 .who-we-are-images-container {
   display: flex;
